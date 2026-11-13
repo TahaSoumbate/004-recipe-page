@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 3rem;
+}
+
+main>p{
+    margin: 10px 0;
+font-size: clamp(0.84rem, 2.5vw, 2rem);
+
+}
+
+img{
+    width: clamp(10vw,80vw, 100vw);
+    border-radius: 24px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: 20px 0;
+    width: clamp(250px, 100%, 80vw);
+   border-collapse: collapse;
+}
+
+
+
+
+
+th,td{
+    
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Recipe{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+
+li { 
+    margin: 0 2rem; 
+}
+
+li::marker{
+    color: red;
+}
+
