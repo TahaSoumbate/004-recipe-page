@@ -7,6 +7,7 @@ learning path.
 
 ![Screenshot of the recipe page](./public/image/web.png)
 
+
 ![Screenshot of the recipe page](./public/image/mobile.png)
 
 ## What's in it
